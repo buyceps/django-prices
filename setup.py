@@ -21,14 +21,14 @@ with open("README.md", "r", encoding="utf8") as fh:
 
 setup(
     name="django-prices",
-    author="Mirumee Software",
-    author_email="hello@mirumee.com",
+    author="Buyceps Tech",
+    author_email="hello@buyceps.com",
     description="Django fields for the prices module",
     license="BSD",
-    version="2.2.0",
+    version="2.2.1",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mirumee/django-prices",
+    url="https://github.com/buyceps/django-prices",
     packages=["django_prices", "django_prices.templatetags", "django_prices.utils"],
     include_package_data=True,
     classifiers=CLASSIFIERS,
