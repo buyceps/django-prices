@@ -26,7 +26,7 @@ setup(
     author_email="hello@buyceps.com",
     description="Django fields for the prices module",
     license="BSD",
-    version="2.3.0",
+    version="2.4.0",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/buyceps/django-prices",
@@ -35,7 +35,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         "Babel>=2.2",
-        "Django>=3.0,<5",
+        "Django>=3.0,<6",
         "enmerkar>=0.7.1",
         "prices>=1.0.0",
     ],
