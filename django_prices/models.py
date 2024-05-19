@@ -15,6 +15,7 @@ class NonDatabaseFieldBase:
     empty_values = list(validators.EMPTY_VALUES)
 
     # Field flags
+    generated = True
     auto_created = False
     blank = True
     concrete = False
